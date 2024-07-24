@@ -1,0 +1,116 @@
+.contact-section {
+  align-items: center;
+  background-color: #f6fbe9;
+  border-radius: 12px;
+  border: 1px solid #e5f5bd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+
+.contact-section > img {
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+  height: 34px;
+  padding: 10px;
+  width: 34px;
+}
+
+.contact-section > h2 {
+  color: #262626;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.contact-section > p {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.contact-section > form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.contact-section > form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section > form > div > label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.contact-section > form > div > label > span {
+  color: red;
+}
+
+.contact-section > form > div > input,
+.contact-section > form > div > textarea {
+  background-color: #eef8d3;
+  border-radius: 6px;
+  border: 1px solid #dcf1a7;
+  color: #262626;
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 20px;
+}
+
+.contact-section > form > div > input::placeholder,
+.contact-section > form > div > textarea::placeholder {
+  color: #98989a;
+}
+
+.contact-section > form > div > input:focus,
+.contact-section > form > div > textarea:focus {
+  outline: none;
+}
+
+.contact-section > form > button {
+  background-color: #cbea7b;
+  border-radius: 6px;
+  border: unset;
+  color: #262626;
+  font-family: "Urbanist", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 14px;
+}
+
+.contact-section > form > button:focus {
+  outline: none;
+}
+
+.map-container {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+}
+
+.map-container > iframe {
+  border-radius: 8px;
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
