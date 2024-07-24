@@ -41,8 +41,7 @@ nav > ul li a {
   text-decoration: none;
 }
 
-nav > ul li a:hover,
-nav > ul li a.active {
+nav > ul li a:hover {
   color: #c8ff8f;
 }
 
@@ -113,6 +112,13 @@ footer > .details > p {
 }
 
 @media (min-width: 1024px) {
+  header {
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
   nav > ul {
     display: flex;
     gap: 10px;
@@ -121,6 +127,7 @@ footer > .details > p {
   }
 
   .container {
+    padding-top: 95px;
     width: 70%;
   }
 }
