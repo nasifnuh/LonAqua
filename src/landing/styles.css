@@ -1,22 +1,22 @@
 .hero-image {
+  height: auto;
   position: relative;
   width: 100%;
-  height: auto;
 }
 
 .hero-image > img:first-child {
-  display: block;
-  width: 100%;
-  height: 375px;
   border-radius: 20px;
+  display: block;
+  height: 375px;
+  width: 100%;
 }
 
 .hero-image > img:last-child {
-  position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
   height: 85%;
+  left: 0;
+  position: absolute;
+  width: 100%;
 }
 
 .hero-section > h1 {
@@ -29,18 +29,18 @@
 }
 
 .hero-section > p {
+  color: #333333;
   font-size: 14px;
   font-weight: 500;
-  color: #333333;
-  text-align: center;
   line-height: 24px;
+  text-align: center;
 }
 
 .hero-actions {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   gap: 10px;
+  justify-content: center;
 }
 
 .hero-actions > a {
@@ -67,11 +67,11 @@
 }
 
 .features-section > p {
+  color: #333333;
   font-size: 14px;
   font-weight: 500;
-  color: #333333;
-  text-align: center;
   line-height: 24px;
+  text-align: center;
 }
 
 .features {
@@ -82,44 +82,44 @@
 }
 
 .feature {
-  padding: 25px;
   background-color: #f6fbe9;
   border-radius: 10px;
   border: 1px solid #e5f5bd;
+  padding: 25px;
 }
 
 .feature > p {
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 500;
   color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 .feature-header {
-  display: flex;
   align-items: center;
+  display: flex;
   gap: 10px;
 }
 
 .feature-header > div {
-  width: 48px;
-  height: 48px;
+  align-items: center;
   background-color: #cbea7b;
   border-radius: 6px;
   display: flex;
+  height: 48px;
   justify-content: center;
-  align-items: center;
+  width: 48px;
 }
 
 .feature-header > div > img {
-  object-fit: contain;
   height: auto;
+  object-fit: contain;
 }
 
 .feature-header > p {
+  color: #262626;
   font-size: 18px;
   font-weight: 600;
-  color: #262626;
   line-height: 24px;
 }
 
@@ -131,11 +131,11 @@
 }
 
 .blogs-section > p {
+  color: #333333;
   font-size: 14px;
   font-weight: 500;
-  color: #333333;
-  text-align: center;
   line-height: 24px;
+  text-align: center;
 }
 
 .blogs {
@@ -147,57 +147,57 @@
 
 .blog {
   all: unset;
-  cursor: pointer;
-  padding: 25px;
   background-color: #f6fbe9;
   border-radius: 10px;
   border: 1px solid #e5f5bd;
+  cursor: pointer;
+  padding: 25px;
 }
 
 .blog > img {
   border-radius: 10px;
-  width: 100%;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .blog > span {
   color: #333333;
   font-size: 14px;
-  line-height: 24px;
   font-weight: 500;
+  line-height: 24px;
 }
 
 .blog > h4 {
   color: #262626;
   font-size: 20px;
-  line-height: 24px;
   font-weight: 600;
+  line-height: 24px;
   margin: 5px 0px 0px 0px;
 }
 
 .blog > p {
   color: #4c4c4d;
   font-size: 14px;
-  line-height: 24px;
   font-weight: 500;
+  line-height: 24px;
 }
 
 .blog-author {
-  display: flex;
   align-items: center;
   background-color: #fafdf2;
   border-radius: 10px;
   border: 1px solid #eef8d3;
-  padding: 15px;
+  display: flex;
   gap: 10px;
+  padding: 15px;
 }
 
 .blog-author > img {
   border-radius: 6px;
+  height: 40px;
   object-fit: contain;
   object-position: center;
   width: 40px;
-  height: 40px;
 }
 
 .blog-author > div {
@@ -207,15 +207,15 @@
 
 .blog-author > div > span:first-child {
   color: #1a3129;
-  font-weight: 600;
   font-size: 16px;
+  font-weight: 600;
   line-height: 24px;
 }
 
 .blog-author > div > span:last-child {
   color: #59595a;
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 24px;
 }
 
