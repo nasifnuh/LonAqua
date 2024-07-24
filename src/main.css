@@ -67,6 +67,9 @@ footer {
 
 footer > .details {
   align-items: center;
+  background-color: #234338;
+  border-radius: 8px;
+  border: 1px solid #234338;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -74,7 +77,7 @@ footer > .details {
   justify-content: center;
   line-height: 24px;
   margin-top: 20px;
-  padding: 20px;
+  padding: 15px 25px;
 }
 
 footer > .details > a {
