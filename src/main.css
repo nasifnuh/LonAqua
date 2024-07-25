@@ -53,6 +53,7 @@ footer {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
 
 footer .links {
@@ -105,7 +106,7 @@ footer .details p {
   width: 100%;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   header {
     box-sizing: border-box;
     position: fixed;
@@ -144,12 +145,13 @@ footer .details p {
   }
 
   .container {
-    padding: 95px 64px 48px 64px;
+    padding: 0px 64px 48px 64px;
   }
 
   footer {
     gap: 15px;
     padding: 40px 64px;
+    margin-top: 0px;
   }
 
   footer .header {
@@ -166,7 +168,7 @@ footer .details p {
 
   footer .details {
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     border: 1px solid #4682b4;
     padding: 20px;
   }
