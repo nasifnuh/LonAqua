@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #0A2540;
+  background-color: #0a2540;
   padding: 20px;
 }
 
@@ -36,7 +36,7 @@ nav ul {
 
 nav .contact-us-btn {
   align-items: center;
-  background-color: #87CEEB;
+  background-color: #87ceeb;
   border-radius: 6px;
   color: #262626;
   display: flex;
@@ -49,11 +49,17 @@ nav .contact-us-btn {
 }
 
 footer {
-  background-color: #0A2540;
+  background-color: #0a2540;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-footer > .details {
+footer .links {
+  display: none;
+}
+
+footer .details {
   align-items: center;
   background-color: #182a4f;
   border-radius: 8px;
@@ -67,11 +73,11 @@ footer > .details {
   padding: 15px 25px;
 }
 
-footer > .details > a {
+footer .details a {
   align-content: center;
   all: unset;
   border-radius: 4px;
-  border: 1px solid #4682B4;
+  border: 1px solid #4682b4;
   cursor: pointer;
   display: flex;
   font-size: 16px;
@@ -82,12 +88,12 @@ footer > .details > a {
   width: 100%;
 }
 
-footer > .details > a > img {
+footer .details a > img {
   height: 20px;
   width: 20px;
 }
 
-footer > .details > p {
+footer .details p {
   font-size: 14px;
   font-weight: 400;
   margin: 10px 0px 0px 0px;
@@ -105,34 +111,72 @@ footer > .details > p {
     position: fixed;
     width: 100%;
     z-index: 1;
+    padding-left: 64px;
+    padding-right: 64px;
   }
 
-  nav .links {
+  nav .links,
+  footer .links {
     display: flex;
     align-items: center;
     gap: 30px;
   }
 
-  nav ul {
+  nav ul,
+  footer ul {
     display: flex;
     gap: 20px;
     list-style: none;
     margin: 0;
   }
 
-  nav ul li a {
+  nav ul li a,
+  footer ul li a {
     color: #f8fcff;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     text-decoration: none;
   }
 
-  nav ul li a:hover {
-    color: #c8ff8f;
+  nav ul li a:hover,
+  footer ul li a:hover {
+    color: #87ceeb;
   }
 
   .container {
-    padding-top: 95px;
-    width: 70%;
+    padding: 95px 64px 48px 64px;
+  }
+
+  footer {
+    gap: 15px;
+    padding: 40px 64px;
+  }
+
+  footer .header {
+    display: flex;
+    align-content: center;
+  }
+
+  footer .logo {
+    flex: 1;
+  }
+  footer .links {
+    flex: 2;
+  }
+
+  footer .details {
+    flex-direction: row;
+    justify-content: start;
+    border: 1px solid #4682b4;
+    padding: 20px;
+  }
+
+  footer .details a {
+    width: max-content;
+  }
+
+  footer .details p {
+    margin-top: 0px;
+    margin-left: auto;
   }
 }
