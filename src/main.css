@@ -145,13 +145,13 @@ footer .details p {
   }
 
   .container {
-    padding: 0px 64px 48px 64px;
+    padding: 80px 64px 0px 64px;
   }
 
   footer {
     gap: 15px;
     padding: 40px 64px;
-    margin-top: 0px;
+    margin-top: 74px;
   }
 
   footer .header {
