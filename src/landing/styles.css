@@ -53,11 +53,16 @@
   width: max-content;
 }
 
+.features-section {
+  margin-top: 20px;
+}
+
 .features-section > h2 {
   color: #0a2540;
   font-size: 28px;
   font-weight: 700;
   text-align: center;
+  margin: 0px;
 }
 
 .features-section > p {
@@ -66,6 +71,10 @@
   font-weight: 500;
   line-height: 24px;
   text-align: center;
+}
+
+.features-section > p > br {
+  display: none;
 }
 
 .features {
@@ -80,13 +89,6 @@
   border-radius: 10px;
   border: 1px solid #add8e6;
   padding: 25px;
-}
-
-.feature > p {
-  color: #333333;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 24px;
 }
 
 .feature-header {
@@ -117,6 +119,13 @@
   line-height: 24px;
 }
 
+.feature > p {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
 .blogs-section > h2 {
   color: #0a2540;
   font-size: 28px;
@@ -130,6 +139,10 @@
   font-weight: 500;
   line-height: 24px;
   text-align: center;
+}
+
+.blogs-section > p > br {
+  display: none;
 }
 
 .blogs {
@@ -213,6 +226,10 @@
   line-height: 24px;
 }
 
+.pricing-section {
+  margin-top: 20px;
+}
+
 .pricing-section > h2 {
   color: #0a2540;
   font-size: 28px;
@@ -226,6 +243,10 @@
   font-weight: 500;
   line-height: 24px;
   text-align: center;
+}
+
+.pricing-section > p > br {
+  display: none;
 }
 
 .packages {
@@ -304,18 +325,95 @@
     height: 550px;
   }
 
-  .hero-details > h1,
-  .hero-details > p {
-    text-align: left;
-  }
-
   .hero-details > h1 {
     margin-top: 0px;
     margin-bottom: 16px;
+    font-size: 48px;
+    text-align: left;
+  }
+
+  .hero-details > p {
+    text-align: left;
+    font-size: 16px;
   }
 
   .hero-actions {
     justify-content: flex-start;
     margin-top: 34px;
+  }
+
+  .features-section > h2 {
+    font-size: 38px;
+    margin: 0px;
+  }
+
+  .features-section > p {
+    font-size: 16px;
+  }
+
+  .features-section > p > br {
+    display: inline-block;
+  }
+
+  .features {
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pricing-section > h2 {
+    font-size: 38px;
+    margin: 0px;
+  }
+
+  .pricing-section > p {
+    font-size: 16px;
+  }
+
+  .pricing-section > p > br {
+    display: inline-block;
+  }
+
+  .packages {
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .blogs-section > h2 {
+    font-size: 38px;
+    margin: 0px;
+  }
+
+  .blogs-section > p {
+    font-size: 16px;
+  }
+
+  .blogs-section > p > br {
+    display: inline-block;
+  }
+
+  .blogs {
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog > p {
+    height: 96px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .features {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .blogs {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .blog > p {
+    height: 136px;
   }
 }
