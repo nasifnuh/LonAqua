@@ -9,7 +9,15 @@
   padding: 25px;
 }
 
-.contact-section > img {
+.contact-section .header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-section .header img {
+  background-color: #ffffff;
   border-radius: 10px;
   border: 3px solid #ffffff;
   height: 34px;
@@ -17,7 +25,7 @@
   width: 34px;
 }
 
-.contact-section > h2 {
+.contact-section .header h2 {
   color: #262626;
   font-size: 28px;
   font-weight: 600;
@@ -26,7 +34,7 @@
   margin-top: 30px;
 }
 
-.contact-section > p {
+.contact-section .header p {
   color: #333333;
   font-size: 14px;
   font-weight: 500;
@@ -34,7 +42,15 @@
   text-align: center;
 }
 
-.contact-section > form {
+.contact-section .header p br {
+  display: none;
+}
+
+.contact-section .details {
+  width: 100%;
+}
+
+.contact-section .details form {
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -43,24 +59,24 @@
   width: 100%;
 }
 
-.contact-section > form > div {
+.contact-section .details form > div {
   display: flex;
   flex-direction: column;
 }
 
-.contact-section > form > div > label {
-  font-weight: 600;
+.contact-section .details form > div > label {
   font-size: 16px;
+  font-weight: 600;
   line-height: 24px;
   margin-bottom: 5px;
 }
 
-.contact-section > form > div > label > span {
+.contact-section .details form > div > label > span {
   color: red;
 }
 
-.contact-section > form > div > input,
-.contact-section > form > div > textarea {
+.contact-section .details form > div > input,
+.contact-section .details form > div > textarea {
   background-color: #d0e8ff;
   border-radius: 6px;
   border: 1px solid #a9d0ff;
@@ -69,24 +85,25 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-  padding: 20px;
+  padding: 12px;
 }
 
-.contact-section > form > div > input::placeholder,
-.contact-section > form > div > textarea::placeholder {
+.contact-section .details form > div > input::placeholder,
+.contact-section .details form > div > textarea::placeholder {
   color: #616161;
 }
 
-.contact-section > form > div > input:focus,
-.contact-section > form > div > textarea:focus {
+.contact-section .details form > div > input:focus,
+.contact-section .details form > div > textarea:focus {
   outline: none;
 }
 
-.contact-section > form > button {
+.contact-section .details form > button {
   background-color: #87ceeb;
   border-radius: 6px;
   border: unset;
   color: #262626;
+  cursor: pointer;
   font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -94,7 +111,7 @@
   padding: 14px;
 }
 
-.contact-section > form > button:focus {
+.contact-section .details form > button:focus {
   outline: none;
 }
 
@@ -113,4 +130,50 @@
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+@media (min-width: 900px) {
+  .contact-section {
+    margin-top: 60px;
+    padding: 50px;
+  }
+
+  .contact-section .header img {
+    height: 44px;
+    width: 44px;
+  }
+
+  .contact-section .header h2 {
+    font-size: 38px;
+  }
+
+  .contact-section .header p {
+    font-size: 16px;
+  }
+
+  .contact-section .header p br {
+    display: inline-block;
+  }
+
+  .contact-section .details {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+  }
+
+  .contact-section .details form {
+    margin: 0px;
+  }
+
+  .contact-section .details form > button {
+    margin-top: 30px;
+  }
+
+  .map-container {
+    padding-bottom: 0px;
+  }
+
+  .map-container > iframe {
+    height: 436px;
+  }
 }
