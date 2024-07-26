@@ -39,34 +39,38 @@
 
     <section class="container">
         <div class="contact-section">
-            <img src="../../assets/images/logo.png" alt="Short Logo" />
-            <h2>Contact Us</h2>
-            <p>Our team is here to support you on your
-                hydration journey. Please reach out to us using the contact method below.</p>
-            <form>
-                <div>
-                    <label for="name">Full Name <span>*</span></label>
-                    <input type="text" id="name" name="name" required placeholder="Enter your Full Name">
+            <div class="header"><img src="../../assets/images/logo.png" alt="Short Logo" />
+                <h2>Contact Us</h2>
+                <p>Our team is here to support you on your hydration journey.<br />Please reach out to us using the
+                    contact method below.</p>
+            </div>
+            <div class="details">
+                <form>
+                    <div>
+                        <label for="name">Full Name <span>*</span></label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your Full Name">
+                    </div>
+                    <div>
+                        <label for="email">Email <span>*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your Email">
+                    </div>
+                    <div>
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number">
+                    </div>
+                    <div>
+                        <label for="message">Message <span>*</span></label>
+                        <textarea id="message" name="message" rows="4" required
+                            placeholder="Enter your Message"></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186905.6352474524!2d-81.41342784552094!3d42.94876278846858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef20ea88d9b0b%3A0x28c7d7699a056b95!2sLondon%2C%20ON!5e0!3m2!1sen!2sca!4v1721846396523!5m2!1sen!2sca"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div>
-                    <label for="email">Email <span>*</span></label>
-                    <input type="email" id="email" name="email" required placeholder="Enter your Email">
-                </div>
-                <div>
-                    <label for="phoneNumber">Phone Number</label>
-                    <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number">
-                </div>
-                <div>
-                    <label for="message">Message <span>*</span></label>
-                    <textarea id="message" name="message" rows="3" required placeholder="Enter your Message"></textarea>
-                </div>
-                <button type="submit">Send Message</button>
-            </form>
-            <div class="map-container">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186905.6352474524!2d-81.41342784552094!3d42.94876278846858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef20ea88d9b0b%3A0x28c7d7699a056b95!2sLondon%2C%20ON!5e0!3m2!1sen!2sca!4v1721846396523!5m2!1sen!2sca"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>

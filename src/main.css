@@ -109,17 +109,17 @@ footer .details p {
 @media (min-width: 900px) {
   header {
     box-sizing: border-box;
+    padding-left: 64px;
+    padding-right: 64px;
     position: fixed;
     width: 100%;
     z-index: 1;
-    padding-left: 64px;
-    padding-right: 64px;
   }
 
   nav .links,
   footer .links {
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 30px;
   }
 
@@ -150,8 +150,8 @@ footer .details p {
 
   footer {
     gap: 15px;
-    padding: 40px 64px;
     margin-top: 74px;
+    padding: 40px 64px;
   }
 
   footer .header {
@@ -167,9 +167,9 @@ footer .details p {
   }
 
   footer .details {
+    border: 1px solid #4682b4;
     flex-direction: row;
     justify-content: flex-start;
-    border: 1px solid #4682b4;
     padding: 20px;
   }
 
@@ -178,7 +178,7 @@ footer .details p {
   }
 
   footer .details p {
-    margin-top: 0px;
     margin-left: auto;
+    margin-top: 0px;
   }
 }
