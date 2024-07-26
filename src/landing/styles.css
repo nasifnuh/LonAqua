@@ -389,6 +389,10 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .package .description {
+    height: 120px;
+  }
+
   .blogs-section > h2 {
     font-size: 38px;
     margin: 0px;
@@ -406,6 +410,10 @@
     margin-top: 44px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog > h4{
+    min-height: 48px;
   }
 
   .blog > p {
