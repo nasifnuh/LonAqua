@@ -111,10 +111,6 @@
   padding: 14px;
 }
 
-.contact-section .details form > button:focus {
-  outline: none;
-}
-
 .map-container {
   height: 0;
   padding-bottom: 56.25%;
