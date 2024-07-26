@@ -27,18 +27,18 @@
 
 .contact-section .header h2 {
   color: #262626;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 1.5rem;
   margin-bottom: 0px;
   margin-top: 30px;
 }
 
 .contact-section .header p {
   color: #333333;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
 }
 
@@ -65,9 +65,9 @@
 }
 
 .contact-section .details form > div > label {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 1.5rem;
   margin-bottom: 5px;
 }
 
@@ -82,9 +82,9 @@
   border: 1px solid #a9d0ff;
   color: #262626;
   font-family: "Urbanist", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1.5rem;
   padding: 12px;
 }
 
@@ -105,14 +105,10 @@
   color: #262626;
   cursor: pointer;
   font-family: "Urbanist", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 1.5rem;
   padding: 14px;
-}
-
-.contact-section .details form > button:focus {
-  outline: none;
 }
 
 .map-container {
@@ -144,11 +140,11 @@
   }
 
   .contact-section .header h2 {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
 
   .contact-section .header p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .contact-section .header p br {

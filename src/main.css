@@ -40,7 +40,7 @@ nav .contact-us-btn {
   border-radius: 6px;
   color: #262626;
   display: flex;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   height: 35px;
   justify-content: center;
@@ -69,7 +69,7 @@ footer .details {
   flex-direction: column;
   gap: 15px;
   justify-content: center;
-  line-height: 24px;
+  line-height: 1.5rem;
   margin-top: 20px;
   padding: 15px 25px;
 }
@@ -81,7 +81,7 @@ footer .details a {
   border: 1px solid #4682b4;
   cursor: pointer;
   display: flex;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   gap: 10px;
   justify-content: center;
@@ -95,7 +95,7 @@ footer .details a > img {
 }
 
 footer .details p {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   margin: 10px 0px 0px 0px;
 }
@@ -134,7 +134,7 @@ footer .details p {
   nav ul li a,
   footer ul li a {
     color: #f8fcff;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
     text-decoration: none;
   }

@@ -14,7 +14,7 @@
 
 .hero-section h1 {
   color: #0a2540;
-  font-size: 38px;
+  font-size: 2.375rem;
   font-weight: 700;
   margin-bottom: 30px;
   margin-top: 40px;
@@ -23,9 +23,9 @@
 
 .hero-section p {
   color: #333333;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
 }
 
@@ -43,11 +43,11 @@
   border-radius: 6px;
   color: #262626;
   display: flex;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   height: 45px;
   justify-content: center;
-  line-height: 24px;
+  line-height: 1.5rem;
   padding: 0px 15px;
   text-decoration: none;
   width: max-content;
@@ -59,7 +59,7 @@
 
 .features-section > h2 {
   color: #0a2540;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   margin: 0px;
   text-align: center;
@@ -67,9 +67,9 @@
 
 .features-section > p {
   color: #333333;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
 }
 
@@ -114,30 +114,30 @@
 
 .feature-header > p {
   color: #262626;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 .feature > p {
   color: #333333;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 .blogs-section > h2 {
   color: #0a2540;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   text-align: center;
 }
 
 .blogs-section > p {
   color: #333333;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
 }
 
@@ -169,24 +169,24 @@
 
 .blog > span {
   color: #333333;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 .blog > h4 {
   color: #262626;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 1.5rem;
   margin: 5px 0px 0px 0px;
 }
 
 .blog > p {
   color: #4c4c4d;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 .blog-author {
@@ -214,16 +214,16 @@
 
 .blog-author > div > span:first-child {
   color: #0a2540;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 .blog-author > div > span:last-child {
   color: #59595a;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 .pricing-section {
@@ -232,16 +232,16 @@
 
 .pricing-section > h2 {
   color: #0a2540;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   text-align: center;
 }
 
 .pricing-section > p {
   color: #333333;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
 }
 
@@ -265,30 +265,30 @@
 
 .package > h4 {
   color: #262626;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 1.5rem;
   margin: 0px 0px 10px 0px;
 }
 
 .package > p {
   color: #333333;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 .package .price {
   color: #333333;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
   margin-top: 25px;
 }
 
 .package .price > span {
   color: #4682b4;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
@@ -298,7 +298,7 @@
   border-radius: 6px;
   color: #262626;
   display: flex;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   height: 45px;
   justify-content: center;
@@ -358,12 +358,12 @@
 
 @media (min-width: 900px) {
   .hero-details > h1 {
-    font-size: 32px;
+    font-size: 2rem;
     text-align: left;
   }
 
   .hero-details > p {
-    font-size: 16px;
+    font-size: 1rem;
     text-align: left;
   }
 
@@ -378,12 +378,12 @@
   }
 
   .features-section > h2 {
-    font-size: 38px;
+    font-size: 2.375rem;
     margin: 0px;
   }
 
   .features-section > p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .features {
@@ -395,12 +395,12 @@
   }
 
   .pricing-section > h2 {
-    font-size: 38px;
+    font-size: 2.375rem;
     margin: 0px;
   }
 
   .pricing-section > p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .packages {
@@ -412,12 +412,12 @@
   }
 
   .blogs-section > h2 {
-    font-size: 38px;
+    font-size: 2.375rem;
     margin: 0px;
   }
 
   .blogs-section > p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .blogs {
@@ -436,7 +436,7 @@
   }
 
   .hero-details > h1 {
-    font-size: 48px;
+    font-size: 3rem;
     margin-bottom: 16px;
     margin-top: 0px;
     text-align: left;
