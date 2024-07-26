@@ -1,5 +1,5 @@
 # LonAqua
-Web design module course project!
+Fanshawe College - Web Design module course project!
 
 ## Getting Started
 To run the project, follow these steps:
